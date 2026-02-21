@@ -1,0 +1,23 @@
+int[]marks = {80,95,105,95,125};
+	int max=marks[0];
+	int min=marks[0];
+	
+	for(int mark  :marks)
+	{
+		if(mark>max)
+		{
+			max=mark;
+		}
+		if(mark<max)
+		{
+			min=mark;
+		}
+	}
+	
+	
+	
+	System.out.println("Max: "+max);
+	System.out.println("Min: "+min);
+	
+	
+	
