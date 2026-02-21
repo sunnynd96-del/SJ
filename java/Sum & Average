@@ -1,0 +1,12 @@
+int[]marks = {80,95,105,95,125};
+	int sum=0;
+	
+	for(int mark  :marks)
+	{
+		sum+=mark;
+	}
+	
+	double average =(double)sum/marks.length;
+	
+	System.err.println("Sum: "+sum);
+	System.out.println("Average: "+average);
